@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "在 C 大調音階中，第三音（中音）是哪一個音？",
+    "options": [
+      { "id": "A", "text": "D" },
+      { "id": "B", "text": "E" },
+      { "id": "C", "text": "G" },
+      { "id": "D", "text": "A" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "C 大調音階為 C-D-E-F-G-A-B-C，第三音是 E（Mi）。"
+  },
+  {
+    "id": 2,
+    "question": "在吉他指板上，標準調弦下 E 弦（最粗）的空弦音名是？",
+    "options": [
+      { "id": "A", "text": "A" },
+      { "id": "B", "text": "D" },
+      { "id": "C", "text": "E" },
+      { "id": "D", "text": "G" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "標準調弦從粗到細為 E-A-D-G-B-E，最粗的第六弦空弦是 E。"
+  },
+  {
+    "id": 3,
+    "question": "下列哪一個是「大三和弦」的組成？",
+    "options": [
+      { "id": "A", "text": "根音 + 小三度 + 純五度" },
+      { "id": "B", "text": "根音 + 大三度 + 純五度" },
+      { "id": "C", "text": "根音 + 大三度 + 減五度" },
+      { "id": "D", "text": "根音 + 小三度 + 增五度" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "大三和弦由根音、大三度、純五度組成，例如 C 和弦為 C-E-G。"
+  },
+  {
+    "id": 4,
+    "question": "在 A 小調自然音階中，第七音（導音）的音名是？",
+    "options": [
+      { "id": "A", "text": "F" },
+      { "id": "B", "text": "F#" },
+      { "id": "C", "text": "G" },
+      { "id": "D", "text": "G#" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A 自然小調為 A-B-C-D-E-F-G-A，第七音是 G。"
+  },
+  {
+    "id": 5,
+    "question": "「Power Chord」通常由哪兩個音組成？",
+    "options": [
+      { "id": "A", "text": "根音 + 大三度" },
+      { "id": "B", "text": "根音 + 純五度" },
+      { "id": "C", "text": "根音 + 小七度" },
+      { "id": "D", "text": "根音 + 大六度" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Power Chord（強力和弦）由根音與純五度組成，常用於搖滾與金屬。"
+  }
+]

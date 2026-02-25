@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-dark: #0a0a0c;
+  --bg-card: #121214;
+  --accent-gold: #d4af37;
+  --accent-blue: #3b82f6;
+  --accent-orange: #f97316;
+  --text-primary: #f4f4f5;
+  --text-muted: #a1a1aa;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+/* 音樂軟體質感按鈕 */
+@layer components {
+  .btn-quiz {
+    @apply relative overflow-hidden rounded-xl border border-white/10 bg-dark-800 px-6 py-4 text-left font-medium
+           transition-all duration-200 hover:border-accent-gold/40 hover:bg-dark-700 hover:shadow-glow
+           focus:outline-none focus:ring-2 focus:ring-accent-gold/50 focus:ring-offset-2 focus:ring-offset-dark-900;
+  }
+  .btn-quiz.correct {
+    @apply border-emerald-500/60 bg-emerald-950/50 text-emerald-300;
+  }
+  .btn-quiz.wrong {
+    @apply border-red-500/60 bg-red-950/30 text-red-300;
+  }
+  .card-quiz {
+    @apply rounded-2xl border border-white/10 bg-dark-800/80 p-6 shadow-xl backdrop-blur-sm
+           sm:p-8 md:p-10;
+  }
+}
