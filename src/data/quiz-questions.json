@@ -1,6 +1,35 @@
 [
   {
     "id": 1,
+    "category": "Rhythm",
+    "question": "在 4/4 拍中，連續兩個八分音符，第二個音符落在第幾點？",
+    "options": [
+      { "id": "A", "text": "1 拍正拍" },
+      { "id": "B", "text": "1 拍反拍 (&)" },
+      { "id": "C", "text": "2 拍正拍" },
+      { "id": "D", "text": "2 拍反拍 (&)" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "八分音符將一拍平分，第一個在正拍，第二個在反拍。",
+    "figure": "rhythm-44-eighth"
+  },
+  {
+    "id": 2,
+    "category": "Theory",
+    "question": "C 大調音階中，半音關係出現在哪兩個位置？",
+    "options": [
+      { "id": "A", "text": "1-2, 4-5" },
+      { "id": "B", "text": "3-4, 7-1" },
+      { "id": "C", "text": "2-3, 5-6" },
+      { "id": "D", "text": "1-3, 4-6" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "大調音階的半音出現在第 3、4 音 (E-F) 與第 7、1 音 (B-C)。",
+    "figure": "theory-major-scale"
+  },
+  {
+    "id": 3,
+    "category": "Theory",
     "question": "在 C 大調音階中，第三音（中音）是哪一個音？",
     "options": [
       { "id": "A", "text": "D" },
@@ -12,7 +41,8 @@
     "explanation": "C 大調音階為 C-D-E-F-G-A-B-C，第三音是 E（Mi）。"
   },
   {
-    "id": 2,
+    "id": 4,
+    "category": "Instrument",
     "question": "在吉他指板上，標準調弦下 E 弦（最粗）的空弦音名是？",
     "options": [
       { "id": "A", "text": "A" },
@@ -24,7 +54,8 @@
     "explanation": "標準調弦從粗到細為 E-A-D-G-B-E，最粗的第六弦空弦是 E。"
   },
   {
-    "id": 3,
+    "id": 5,
+    "category": "Theory",
     "question": "下列哪一個是「大三和弦」的組成？",
     "options": [
       { "id": "A", "text": "根音 + 小三度 + 純五度" },
@@ -36,7 +67,8 @@
     "explanation": "大三和弦由根音、大三度、純五度組成，例如 C 和弦為 C-E-G。"
   },
   {
-    "id": 4,
+    "id": 6,
+    "category": "Theory",
     "question": "在 A 小調自然音階中，第七音（導音）的音名是？",
     "options": [
       { "id": "A", "text": "F" },
@@ -48,7 +80,8 @@
     "explanation": "A 自然小調為 A-B-C-D-E-F-G-A，第七音是 G。"
   },
   {
-    "id": 5,
+    "id": 7,
+    "category": "Theory",
     "question": "「Power Chord」通常由哪兩個音組成？",
     "options": [
       { "id": "A", "text": "根音 + 大三度" },

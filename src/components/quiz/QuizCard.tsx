@@ -1,6 +1,7 @@
 "use client";
 
 import type { QuizQuestion } from "@/types/quiz";
+import { QuestionFigure } from "./QuestionFigure";
 
 interface QuizCardProps {
   question: QuizQuestion;
@@ -30,9 +31,17 @@ export function QuizCard({
 
   return (
     <div className="card-quiz">
-      <p className="mb-6 text-lg font-medium leading-relaxed text-zinc-100 sm:text-xl">
+      {question.category && (
+        <p className="mb-2 text-sm font-medium uppercase tracking-wide text-accent-gold/90">
+          {question.category}
+        </p>
+      )}
+      <p className="mb-4 text-lg font-medium leading-relaxed text-zinc-100 sm:text-xl">
         {question.question}
       </p>
+      {question.figure && (
+        <QuestionFigure figure={question.figure} />
+      )}
       <div className="space-y-3">
         {question.options.map((opt) => (
           <button
