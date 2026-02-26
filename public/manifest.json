@@ -1,0 +1,18 @@
+{
+  "name": "吉他樂理測驗",
+  "short_name": "吉他測驗",
+  "description": "吉他樂理測驗 - Google 登入與成績紀錄",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#d4af37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

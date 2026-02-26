@@ -20,6 +20,21 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 export const metadata: Metadata = {
   title: "吉他樂理測驗",
   description: "吉他樂理測驗 Web App - Google 登入與成績紀錄",
+  manifest: "/manifest.json",
+  themeColor: "#d4af37",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "吉他樂理測驗",
+  },
+  icons: { apple: "/icon.svg" },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+    viewportFit: "cover",
+  },
 };
 
 export default function RootLayout({
